@@ -19,16 +19,11 @@ import matplotlib
 import matplotlib.pyplot as plt
 import matplotlib.colors as colors
 from matplotlib.backends.backend_tkagg import FigureCanvasTkAgg
-from matplotlib.patches import Circle, PathPatch
 from matplotlib.text import TextPath
 from matplotlib.transforms import Affine2D
 # Implement the default Matplotlib key bindings.
 from matplotlib.backend_bases import key_press_handler
 from matplotlib.figure import Figure
-import matplotlib.path as mpath
-import matplotlib.lines as mlines
-import matplotlib.patches as mpatches
-from matplotlib.collections import PatchCollection
 import math
 from mpl_toolkits import mplot3d
 from mpl_toolkits.mplot3d import  axes3d,Axes3D
