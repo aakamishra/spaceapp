@@ -1,3 +1,3 @@
 # spaceapp
 Telescope Aiming tool
-/home/aakash/Pictures/exampleUI.png
+![alt text](https://raw.githubusercontent.com/aakamishra/spaceapp/exampleUI.png)
