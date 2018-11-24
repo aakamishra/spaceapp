@@ -1,7 +1,3 @@
-from __future__ import division
-import os
-import sys
-
 from astroquery.jplhorizons import conf
 conf.horizons_server = 'https://ssd.jpl.nasa.gov/horizons_batch.cgi'
 import numpy as np
@@ -12,16 +8,6 @@ from astropy.wcs import WCS
 from astroquery.jplhorizons import conf,Horizons
 conf.horizons_server = 'https://ssd.jpl.nasa.gov/horizons_batch.cgi'
 import urllib
-import copy
-import pdb
-import glob
-import matplotlib
-import matplotlib.pyplot as plt
-import matplotlib.colors as colors
-import math
-import pandas as pd 
-import pdb
-import os
 
 def locate(name):
 	Davis = {'lon': -121.7405,'lat': 38.5449,'elevation': 0.0158}
